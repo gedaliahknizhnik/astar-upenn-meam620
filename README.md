@@ -3,7 +3,7 @@ MEAM620 Project 1.3
 
 ###### Author: Gedaliah Knizhnik
 
-These files contain Gedaliah Knizhnik's work on project 1.3 for MEAM620 Advanced Robotics.  The goal of this phase of the project is to combine the results of projects 1.1 and 1.2,. The Dijkstra/A* implementation from 1.2 is used to find a path through a pre-defined map, which is then passed to a modified trajectory generator from 1.1, which produces a feasible trajectory that approximates the Dijkstra path. A simulated quadrotor then attempts to follow the path, using the geometric controller from 1.1, without colliding with any obstacles. The ideal trajectory is fast, efficient, feasible, and results in no collisions.
+These files contain Gedaliah Knizhnik's work on project 1.3 for MEAM620 Advanced Robotics at the University of Pennsylvania.  The goal of this phase of the project is to combine the results of projects 1.1 and 1.2,. The Dijkstra/A* implementation from 1.2 is used to find a path through a pre-defined map, which is then passed to a modified trajectory generator from 1.1, which produces a feasible trajectory that approximates the Dijkstra path. A simulated quadrotor then attempts to follow the path, using the geometric controller from 1.1, without colliding with any obstacles. The ideal trajectory is fast, efficient, feasible, and results in no collisions.
 
 The following files contain work done by Gedaliah in addition to the code skeleton provided by the teaching staff:
 
@@ -75,3 +75,5 @@ I originally used a set of 3D matrices rather than column vectors for my Dijkstr
 The function used to return values was adapted from one written by **Jessica McWilliams**, although the particular matrix multiplication methodology used is mine. 
 
 The acceleration based timing approach I used was shown to me by **Luca Scheuer**, and the recommendation to use continuous splines was his as well, though the implementation is my own (I had originally been using individual cubic splines).
+
+Credit also to the teaching staff at Penn for coming up with the simulation environment and utility files.
